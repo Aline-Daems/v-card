@@ -35,6 +35,18 @@
 
 }
 
+.name:hover {
+    position: absolute; 
+    top: 115px;
+    font-size: 25px;
+    left: 55px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+
+    
+
+}
+
 
 .job {
     position: absolute;
@@ -42,6 +54,16 @@
     left: 75px;
     font-size: 15px;
     color: #80aeeb;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.job:hover {
+    position: absolute;
+    bottom: 140px;
+    left: 75px;
+    font-size: 15px;
+    color: white;
     font-family: 'Anton', sans-serif;
 
 }
@@ -60,12 +82,39 @@
 
 }
 
+.line:hover {
+
+    position: absolute;
+    top: 165px;
+    left: 30px;
+    border-bottom: 5px solid white;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,233,250,1);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,233,250,1);
+    box-shadow: 0px 3px 5px 0px rgba(0,233,250,1);
+    width: 240px
+
+}
+
 .line2 {
 
 
     position: absolute;
     bottom: 85px;
     right: 0px;
+    width: 240px;
+    border-bottom: 5px solid white;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,233,250,1);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,233,250,1);
+    box-shadow: 0px 3px 5px 0px rgba(0,233,250,1);
+}
+
+.line2:hover {
+
+
+    position: absolute;
+    bottom: 85px;
+    right: 30px;
     width: 240px;
     border-bottom: 5px solid white;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0,233,250,1);
@@ -85,7 +134,17 @@
     box-shadow: 0px 3px 5px 0px rgba(0,233,250,1);
 }
 
+.line3:hover {
 
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    width: 240px;
+    border-bottom: 5px solid white;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,233,250,1);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,233,250,1);
+    box-shadow: 0px 3px 5px 0px rgba(0,233,250,1);
+}
 
 
 
@@ -99,6 +158,15 @@
     font-family: 'Cairo', sans-serif;
 }
 
+.adress:hover {
+
+    position: absolute; 
+    right: 50px;
+    bottom: 100px;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+}
+
 .tel {
 
     position: absolute; 
@@ -108,12 +176,30 @@
     font-family: 'Cairo', sans-serif;
 }
 
+.tel:hover {
+
+    position: absolute; 
+    right: 56px;
+    bottom: 75px;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+}
+
 .mail {
 
     position: absolute;   
     left: 15px;
     bottom: 5px;
     color: #80aeeb;
+    font-family: 'Cairo', sans-serif;
+}
+
+.mail:hover {
+
+    position: absolute;   
+    left: 15px;
+    bottom: 5px;
+    color: white;
     font-family: 'Cairo', sans-serif;
 }
 
